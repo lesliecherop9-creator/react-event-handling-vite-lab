@@ -7,10 +7,12 @@ function App() {
 
   return (
     <div>
+      <h1>Create Account</h1>
       <PasswordInput/>
+      <br/>
       <SubmitButton/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
