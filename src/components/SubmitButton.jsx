@@ -1,18 +1,18 @@
 function SubmitButton() {
-  const mouseEntered = () => {
-    console.log("Mouse is over the submit button");
+  const handleEnter = () => {
+    console.log("Mouse Entering");
   };
 
-  const mouseLeft = () => {
-    console.log("Mouse left the submit button");
+  const handleLeave = () => {
+    console.log("Mouse Exiting");
   };
 
   return (
     <button
-      onMouseEnter={mouseEntered}
-      onMouseLeave={mouseLeft}
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
     >
-      Submit
+      Submit Password
     </button>
   );
 }
